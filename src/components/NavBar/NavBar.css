@@ -1,0 +1,37 @@
+nav {
+    width: 100%;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 50px;
+    background: skyblue;
+    height: auto;
+    font-family: 'Covered By Your Grace', cursive;
+  }
+  
+  a {
+    color: darkcyan;
+  }
+  
+  a:hover {
+    color: darkcyan;
+    text-decoration: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 25%;
+  
+  }
+  
+  ul {
+   
+    display: flex;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    #cur-sco, #top-sco {
+      font-size: 2rem;
+    }
+  }
