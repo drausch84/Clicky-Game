@@ -1,10 +1,10 @@
 import React from "react";
 import "./NavBar.css";
 
-const Nav = props => (
+const NavBar = props => (
   <nav>
     <ul>
-      <li className="brand animated hinge">
+      <li className="brand animated rubberBand">
         <a href="/clicky-game/">{props.title}</a>
       </li>
 

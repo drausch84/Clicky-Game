@@ -1,6 +1,7 @@
 .wrapper {
     background: ghostwhite;
-    background-image: url('https://vignette.wikia.nocookie.net/southpark/images/c/ca/Bus-stop.jpg/revision/latest?cb=20141214163925');
+    background-image: url('http://southparkstudios.mtvnimages.com/shared/locations/busstop.jpg');
+    background-size: cover;
     height: 100%;
     display: flex;
     flex-flow: row wrap;
